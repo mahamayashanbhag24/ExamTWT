@@ -53,12 +53,14 @@ To create,
 The **Feed** page appears.
 2. In the message box, select the **+** icon.
 3. In the **Create Post** box, you can perform the following steps:
+
     
-    <ol type="a">
-    <li>Compose the message.</li>
-    <li>Add a tag (Optional).</li>
-    <li>Select <strong>Post.</strong></li>
-    </ol>
+    a. Compose the message.
+
+    b. Add a tag (Optional).
+
+    c. Select **Post.**
+    
 
     The post appears on the **Feed** page.
 
