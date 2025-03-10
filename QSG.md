@@ -53,17 +53,20 @@ Your post is visible to other people, allowing them to interact through comments
 You can create a text post to share information, engage with the community, and gather feedback.
 
 To create,
+
 1. On your browser or mobile, sign in to the Tech Writer’s Tribe application.
 The **Feed** page appears.
+
 2. In the message box, select the **+** icon.
+
 3. In the **Create Post** box, you can perform the following steps:
 
     
-        a. Compose the message.
+    a. Compose the message.
 
-        b. Add a tag (Optional).
+    b. Add a tag (Optional).
 
-        c. Select **Post.**
+    c. Select **Post.**
     
 
     The post appears on the **Feed** page.
@@ -74,6 +77,7 @@ The **Feed** page appears.
 You can add a quiz to engage people and test their knowledge.
 
 To add,
+
 1. On your browser or mobile, sign in to the Tech Writer’s Tribe application.
 
     The **Feed** page appears.
@@ -84,21 +88,21 @@ To add,
 
 4. In the Add a Quiz box, perform the following steps:
 
-        a. Write your question.
+    a. Write your question.
 
-        b. Add the options.
+    b. Add the options.
 
-        c. Select the correct answer.
+    c. Select the correct answer.
 
-        d. Set the expiry.
+    d. Set the expiry.
 
-        e. Select **Add.**
+    e. Select **Add.**
 
 5. In the **Create Post** box, perform the following steps:
    
-        a. Add a tag (Optional).
+    a. Add a tag (Optional).
 
-        b. Select **Post.**
+    b. Select **Post.**
 
     The quiz appears on the **Feed** page.
 
@@ -120,19 +124,19 @@ To add,
     
 4. In the **Add a Poll** box, perform the following steps:
    
-        a. Write your question.
+    a. Write your question.
 
-        b. Add the options.
+    b. Add the options.
 
-        c. Set the expiry.
+    c. Set the expiry.
 
-        d. Select **Add.**
+    d. Select **Add.**
 
 5. In the **Create Post** box, perform the following steps:
 
-        a. Add a tag (Optional).
+    a. Add a tag (Optional).
         
-        b. Select **Post.**
+    b. Select **Post.**
 
     The poll appears on the **Feed** page.
 
