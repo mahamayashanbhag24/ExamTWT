@@ -77,7 +77,8 @@ To add,
 
 2. In the message box, select the **+** icon.
    
-3. In the **Create Post** box, select **Add Quiz.**
+3. In the **Create Post** box, select **Add Quiz.** 
+
 4. In the Add a Quiz box, perform the following steps:
 
     a. Write your question.
@@ -96,7 +97,7 @@ To add,
 
     b. Select **Post.**
 
-    The quiz appears on the Feed page.
+    The quiz appears on the **Feed** page.
 
 
 
