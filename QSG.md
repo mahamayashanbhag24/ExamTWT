@@ -65,7 +65,7 @@ The **Feed** page appears.
 
     The post appears on the **Feed** page.
 
-
+&nbsp;
 ### Add a quiz
 
 You can add a quiz to engage people and test their knowledge.
