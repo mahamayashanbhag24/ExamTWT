@@ -18,6 +18,7 @@ Version 1.0
 - [Creating a post](#creating-a-post-1)
   - [Create a text post](#create-a-text-post)
   - [Add a quiz](#add-a-quiz)
+  - [Add a poll](#add-a-poll)
 
 
 &nbsp;
@@ -102,12 +103,12 @@ To add,
     The quiz appears on the **Feed** page.
 
 
-    &nbsp;
-    ### Add a poll
+&nbsp;
+### Add a poll
 
-    You can add a poll to gather opinions and feedback from the community.
+You can add a poll to gather opinions and feedback from the community.
 
-    To add,
+To add,
     
 1. On your browser or mobile, sign in to the Tech Writer’s Tribe application.
     
