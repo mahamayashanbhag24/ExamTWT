@@ -1,4 +1,5 @@
 ![image](/images/image.png)
+
 Tech Writer’s Tribe
 <!-- omit in toc -->
 # Creating A Post
@@ -32,6 +33,7 @@ Before getting started, ensure you have the following requirements:
 
 ## Creating a post
 You can create posts and share interactive content such as,
+
 * Text
 * Quiz
 * Poll
