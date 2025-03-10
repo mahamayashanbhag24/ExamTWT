@@ -1,4 +1,4 @@
-![image](/images/image.png)
+![image](./images/image.png)
 
 Tech Writer’s Tribe
 <!-- omit in toc -->
