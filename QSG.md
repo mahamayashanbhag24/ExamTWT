@@ -16,6 +16,7 @@ Version 1.0
 
 - [Introduction](#introduction)
 - [Creating a post](#creating-a-post-1)
+  - [Create a text post](#create-a-text-post)
 
 
 &nbsp;
@@ -43,6 +44,24 @@ You can create posts and share interactive content such as,
 * Document
 
 Your post is visible to other people, allowing them to interact through comments, likes, or responses.
+
+### Create a text post
+
+You can create a text post to share information, engage with the community, and gather feedback.
+To create,
+1. On your browser or mobile, sign in to the Tech Writer’s Tribe application.
+The **Feed** page appears.
+2. In the message box, select the **+** icon.
+3. In the **Create Post** box, you can perform the following steps:
+    
+    <ol type="a">
+    <li>Compose the message.</li>
+    <li>Add a tag (Optional).</li>
+    <li>Select <strong>Post.</strong></li>
+    </ol>
+
+    The post appears on the **Feed** page.
+
 
 
 
