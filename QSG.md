@@ -83,23 +83,57 @@ To add,
 
 4. In the Add a Quiz box, perform the following steps:
 
-    a. Write your question.
+        a. Write your question.
 
-    b. Add the options.
+        b. Add the options.
 
-    c. Select the correct answer.
+        c. Select the correct answer.
 
-    d. Set the expiry.
+        d. Set the expiry.
 
-    e. Select **Add.**
+        e. Select **Add.**
 
 5. In the **Create Post** box, perform the following steps:
    
-    a. Add a tag (Optional).
+        a. Add a tag (Optional).
 
-    b. Select **Post.**
+        b. Select **Post.**
 
     The quiz appears on the **Feed** page.
+
+
+    &nbsp;
+    ### Add a poll
+
+    You can add a poll to gather opinions and feedback from the community.
+
+    To add,
+    
+    1. On your browser or mobile, sign in to the Tech Writer’s Tribe application.
+    
+        The **Feed** page appears.
+
+    2. In the message box, select the **+** icon.
+   
+    3. In the **Create Post** box, select **Add poll.**
+    
+    4. In the **Add a Poll** box, perform the following steps:
+   
+            a. Write your question.
+
+            b. Add the options.
+
+            c. Set the expiry.
+
+            d. Select **Add.**
+
+    5. In the **Create Post** box, perform the following steps:
+
+            a. Add a tag (Optional).
+        
+            b. Select **Post.**
+
+        The poll appears on the **Feed** page.
 
 
 
