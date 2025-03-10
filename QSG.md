@@ -32,7 +32,7 @@ Before getting started, ensure you have the following requirements:
 * An active account on Tech Writer’s Tribe application.
 * Stable internet connection.
 
-
+&nbsp;
 ## Creating a post
 You can create posts and share interactive content such as,
 
@@ -46,6 +46,7 @@ You can create posts and share interactive content such as,
 
 Your post is visible to other people, allowing them to interact through comments, likes, or responses.
 
+&nbsp;
 ### Create a text post
 
 You can create a text post to share information, engage with the community, and gather feedback.
