@@ -17,6 +17,7 @@ Version 1.0
 - [Introduction](#introduction)
 - [Creating a post](#creating-a-post-1)
   - [Create a text post](#create-a-text-post)
+  - [Add a quiz](#add-a-quiz)
 
 
 &nbsp;
@@ -63,6 +64,39 @@ The **Feed** page appears.
     
 
     The post appears on the **Feed** page.
+
+
+### Add a quiz
+
+You can add a quiz to engage people and test their knowledge.
+
+To add,
+1. On your browser or mobile, sign in to the Tech Writer’s Tribe application.
+
+    The **Feed** page appears.
+
+2. In the message box, select the **+** icon.
+   
+3. In the **Create Post** box, select **Add Quiz.**
+4. In the Add a Quiz box, perform the following steps:
+
+    a. Write your question.
+
+    b. Add the options.
+
+    c. Select the correct answer.
+
+    d. Set the expiry.
+
+    e. Select **Add.**
+
+5. In the **Create Post** box, perform the following steps:
+   
+    a. Add a tag (Optional).
+
+    b. Select **Post.**
+
+    The quiz appears on the Feed page.
 
 
 
