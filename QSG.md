@@ -49,6 +49,8 @@ You can create posts and share interactive content such as,
 * Video
 * Document
 
+![diagram](./images/diagram.png)
+
 Your post is visible to other people, allowing them to interact through comments, likes, or responses.
 
 &nbsp;
@@ -219,7 +221,7 @@ To add,
   
     * Browse your files, select the video, and then select **Add.**
 
-5. In the **Create Post** box, perform the following steps:
+4. In the **Create Post** box, perform the following steps:
     
     a. Compose the message (Optional).
     
@@ -238,7 +240,7 @@ To add,
 
 1. On your browser or mobile, sign in to the Tech Writer’s Tribe application.
 
-    The **Feed** page appears.
+The **Feed** page appears.
 
 2. In the message box, select the **+** icon.
    
