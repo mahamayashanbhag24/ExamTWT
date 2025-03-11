@@ -49,7 +49,7 @@ You can create posts and share interactive content such as,
 * Video
 * Document
 
-![diagram](./images/diagram.png)
+![diagram](./images/diagram_1.png)
 
 
 Your post is visible to other people, allowing them to interact through comments, likes, or responses.
