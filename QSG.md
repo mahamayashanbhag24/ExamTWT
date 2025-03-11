@@ -33,7 +33,6 @@ This Quick Start Guide provides insights into different ways to create a post on
 
 **Prerequisites**
 
-Before getting started, ensure you have the following requirements:
 * An active account on Tech Writer’s Tribe application.
 * Stable internet connection.
 
@@ -71,7 +70,7 @@ To create,
     
     a. Compose the message.
 
-    b. Add a tag (Optional).
+    b. (Optional) Add a tag.
 
     c. Select **Post.**
     
@@ -106,7 +105,7 @@ To add,
 
 5. In the **Create Post** box, perform the following steps:
    
-    a. Add a tag (Optional).
+    a. (Optional) Add a tag.
 
     b. Select **Post.**
 
@@ -139,7 +138,7 @@ To add,
 
 5. In the **Create Post** box, perform the following steps:
 
-    a. Add a tag (Optional).
+    a. (Optional) Add a tag.
         
     b. Select **Post.**
 
@@ -166,7 +165,7 @@ To add,
 
 5. In the **Create Post** box, perform the following steps:
 
-    a. Add a tag (Optional).
+    a. (Optional) Add a tag.
 
     b. Select **Post.**
 
@@ -195,9 +194,9 @@ To add,
 
 5. In the **Create Post** box, perform the following steps:
     
-    a. Compose the message (Optional).
+    a. (Optional) Compose the message.
     
-    b. Add a tag (Optional).
+    b. (Optional) Add a tag.
     
     c. Select **Post.**
 
@@ -224,9 +223,9 @@ To add,
 
 4. In the **Create Post** box, perform the following steps:
     
-    a. Compose the message (Optional).
+    a. (Optional) Compose the message.
     
-    b. Add a tag (Optional).
+    b. (Optional) Add a tag.
     
     c. Select **Post.**
 
@@ -241,7 +240,7 @@ To add,
 
 1. On your browser or mobile, sign in to the Tech Writer’s Tribe application.
 
-The **Feed** page appears.
+    The **Feed** page appears.
 
 2. In the message box, select the **+** icon.
    
@@ -255,9 +254,9 @@ The **Feed** page appears.
   
 5. In the **Create Post** box, perform the following steps:
    
-    a. Compose the message (Optional).
+    a. (Optional) Compose the message.
     
-    b. Add a tag (Optional).
+    b. (Optional) Add a tag.
     
     c. Select **Post.**
 
