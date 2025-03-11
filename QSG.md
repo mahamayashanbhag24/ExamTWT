@@ -88,7 +88,7 @@ To add,
    
 3. In the **Create Post** box, select **Add Quiz.** 
 
-4. In the Add a Quiz box, perform the following steps:
+4. In the **Add a Quiz** box, perform the following steps:
 
     a. Write your question.
 
