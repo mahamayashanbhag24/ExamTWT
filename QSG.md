@@ -152,15 +152,16 @@ To add,
 1. On your browser or mobile, sign in to the Tech Writer’s Tribe application.
    
     The **Feed** page appears.
-1. In the message box, select the **+** icon.
-2. In the **Create Post** box, select **Add question.**
-3. In the **Add a Question** box, perform the following steps:
+
+2. In the message box, select the **+** icon.
+3. In the **Create Post** box, select **Add question.**
+4. In the **Add a Question** box, perform the following steps:
     
     a. Write your question.
 
     b. Select **Add.**
 
-4. In the **Create Post** box, perform the following steps:
+5. In the **Create Post** box, perform the following steps:
 
     a. Add a tag (Optional).
 
