@@ -208,7 +208,9 @@ You can add a video to provide a tutorial, demonstration, or visual explanation,
 To add,
 
 1. On your browser or mobile, sign in to the Tech Writer’s Tribe application.
-The **Feed** page appears.
+   
+    The **Feed** page appears.
+
 2. In the message box, select the **+** icon.
 3. In the **Create Post** box, select **Add video.**
 4. In the **Add Video** box, you can perform one of the following actions:
@@ -236,7 +238,7 @@ To add,
 
 1. On your browser or mobile, sign in to the Tech Writer’s Tribe application.
 
-The **Feed** page appears.
+    The **Feed** page appears.
 
 2. In the message box, select the **+** icon.
    
