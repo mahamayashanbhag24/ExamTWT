@@ -19,6 +19,10 @@ Version 1.0
   - [Create a text post](#create-a-text-post)
   - [Add a quiz](#add-a-quiz)
   - [Add a poll](#add-a-poll)
+  - [Add a question](#add-a-question)
+  - [Add a photo](#add-a-photo)
+  - [Add a video](#add-a-video)
+  - [Add a document](#add-a-document)
 
 
 &nbsp;
@@ -49,7 +53,6 @@ Your post is visible to other people, allowing them to interact through comments
 
 &nbsp;
 ### Create a text post
-
 You can create a text post to share information, engage with the community, and gather feedback.
 
 To create,
@@ -73,7 +76,6 @@ The **Feed** page appears.
 
 &nbsp;
 ### Add a quiz
-
 You can add a quiz to engage people and test their knowledge.
 
 To add,
@@ -109,7 +111,6 @@ To add,
 
 &nbsp;
 ### Add a poll
-
 You can add a poll to gather opinions and feedback from the community.
 
 To add,
@@ -139,6 +140,121 @@ To add,
     b. Select **Post.**
 
     The poll appears on the **Feed** page.
+
+
+&nbsp;
+### Add a question
+You can add a question to seek answers, spark discussions, or gather opinions from the community.
+
+To add,
+
+1. On your browser or mobile, sign in to the Tech Writer’s Tribe application.
+   
+    The **Feed** page appears.
+1. In the message box, select the **+** icon.
+2. In the **Create Post** box, select **Add question.**
+3. In the **Add a Question** box, perform the following steps:
+    
+    a. Write your question.
+
+    b. Select **Add.**
+
+4. In the **Create Post** box, perform the following steps:
+
+    a. Add a tag (Optional).
+
+    b. Select **Post.**
+
+The question appears on the **Feed** page.
+
+
+&nbsp;
+### Add a photo
+You can upload and share photos to enhance your posts. You can add images to provide visual context, illustrate ideas, or make your content more engaging for the community.
+
+To add,
+
+1. On your browser or mobile, sign in to the Tech Writer’s Tribe application.
+The **Feed** page appears.
+
+2. In the message box, select the **+** icon.
+   
+3. In the **Create Post** box, select **Add photos.**
+   
+4. In the **Add Photos** box, you can perform one of the following actions:
+   
+    * Drag and drop the photo and select **Add.**
+
+    * Browse your files, select the photo, and then select **Add.**
+
+5. In the **Create Post** box, perform the following steps:
+    
+    a. Compose the message (Optional).
+    
+    b. Add a tag (Optional).
+    
+    c. Select **Post.**
+
+    The photo appears on the **Feed** page.
+
+
+&nbsp;
+### Add a video
+You can add a video to provide a tutorial, demonstration, or visual explanation, enhancing the overall experience.
+
+To add,
+
+1. On your browser or mobile, sign in to the Tech Writer’s Tribe application.
+The **Feed** page appears.
+2. In the message box, select the **+** icon.
+3. In the **Create Post** box, select **Add video.**
+4. In the **Add Video** box, you can perform one of the following actions:
+   
+    * Drag and drop the video and select **Add.**
+  
+    * Browse your files, select the video, and then select **Add.**
+
+5. In the **Create Post** box, perform the following steps:
+    
+    a. Compose the message (Optional).
+    
+    b. Add a tag (Optional).
+    
+    c. Select **Post.**
+
+The video appears on the **Feed** page.
+
+
+&nbsp;
+### Add a document
+You can upload and share documents to provide detailed information, guides, or resources. Adding a document helps people access important files through your post.
+
+To add,
+
+1. On your browser or mobile, sign in to the Tech Writer’s Tribe application.
+
+The **Feed** page appears.
+
+2. In the message box, select the **+** icon.
+   
+3. In the **Create Post** box, select **Add documents.**
+   
+4. In the **Add Documents** box, you can perform one of the following actions:
+   
+    * Drag and drop the document and select **Add.**
+  
+    * Browse your files, select the document, and then select **Add.**
+  
+5. In the **Create Post** box, perform the following steps:
+   
+    a. Compose the message (Optional).
+    
+    b. Add a tag (Optional).
+    
+    c. Select **Post.**
+
+The document appears on the **Feed** page.
+
 
 
 
