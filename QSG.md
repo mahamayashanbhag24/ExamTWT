@@ -51,6 +51,7 @@ You can create posts and share interactive content such as,
 
 ![diagram](./images/diagram.png)
 
+
 Your post is visible to other people, allowing them to interact through comments, likes, or responses.
 
 &nbsp;
