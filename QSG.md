@@ -58,7 +58,8 @@ You can create a text post to share information, engage with the community, and 
 To create,
 
 1. On your browser or mobile, sign in to the Tech Writer’s Tribe application.
-The **Feed** page appears.
+
+    The **Feed** page appears.
 
 2. In the message box, select the **+** icon.
 
