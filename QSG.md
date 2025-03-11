@@ -65,7 +65,7 @@ To create,
 
 2. In the message box, select the **+** icon.
 
-3. In the **Create Post** box, you can perform the following steps:
+3. In the **Create Post** box, perform the following steps:
 
     
     a. Compose the message.
@@ -186,7 +186,7 @@ To add,
    
 3. In the **Create Post** box, select **Add photos.**
    
-4. In the **Add Photos** box, you can perform one of the following actions:
+4. In the **Add Photos** box, perform one of the following actions:
    
     * Drag and drop the photo and select **Add.**
 
@@ -215,7 +215,7 @@ To add,
 
 2. In the message box, select the **+** icon.
 3. In the **Create Post** box, select **Add video.**
-4. In the **Add Video** box, you can perform one of the following actions:
+4. In the **Add Video** box, perform one of the following actions:
    
     * Drag and drop the video and select **Add.**
   
@@ -246,7 +246,7 @@ To add,
    
 3. In the **Create Post** box, select **Add documents.**
    
-4. In the **Add Documents** box, you can perform one of the following actions:
+4. In the **Add Documents** box, perform one of the following actions:
    
     * Drag and drop the document and select **Add.**
   
