@@ -27,7 +27,7 @@ Version 1.0
 
 &nbsp;
 ## Introduction
-Creating a post on Tech Writer’s Tribe is a great way to share knowledge. Writers can share insights or technical expertise with a like-minded community. They can express their thoughts in an informative and engaging way. The content should be clear and accessible to the intended audience.
+Creating a post on Tech Writer’s Tribe is a great way to share knowledge. Writers can share insights or technical expertise with a like-minded community. They can express their thoughts in an informative and engaging way. The content is accessible to the intended audience.
 
 This Quick Start Guide provides insights into different ways to create a post on Tech Writer’s Tribe application.
 
