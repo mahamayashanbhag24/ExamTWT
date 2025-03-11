@@ -170,7 +170,7 @@ To add,
 
     b. Select **Post.**
 
-The question appears on the **Feed** page.
+    The question appears on the **Feed** page.
 
 
 &nbsp;
@@ -230,7 +230,7 @@ To add,
     
     c. Select **Post.**
 
-The video appears on the **Feed** page.
+    The video appears on the **Feed** page.
 
 
 &nbsp;
@@ -261,7 +261,7 @@ The **Feed** page appears.
     
     c. Select **Post.**
 
-The document appears on the **Feed** page.
+    The document appears on the **Feed** page.
 
 
 
