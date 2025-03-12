@@ -81,7 +81,7 @@ To create,
 
     c. Select **Post.**
     
-    ![text post](<images/text post.png>)
+    ![text post](<images/text post -1.png>)
 
     The post appears on the **Feed** page.
 
