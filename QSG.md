@@ -69,7 +69,7 @@ To create,
    
    * In the message box, select the **+** icon.
    * On the left pane, select **Create a Post.**
-![create a post](<images/create a post.png>)
+    ![create a post](<images/create a post.png>)
 
 
 3. In the **Create Post** box, perform the following steps:
@@ -95,10 +95,13 @@ To add,
 
     The **Feed** page appears.
 
+    ![Feed page](<images/feed page.png>)
+
 2. On the Feed page, select one of the following options:
    
    * In the message box, select the **+** icon.
    * On the left pane, select **Create a Post.**
+    ![create a post](<images/create a post.png>)
    
 3. In the **Create Post** box, select **Add Quiz.** 
 
@@ -133,11 +136,16 @@ To add,
     
     The **Feed** page appears.
 
+    ![Feed page](<images/feed page.png>)
+
+
 2. On the **Feed** page, select one of the following options:
    
    * In the message box, select the **+** icon.
    * On the left pane, select **Create a Post.**
    
+   ![create a post](<images/create a post.png>)
+
 3. In the **Create Post** box, select **Add poll.**
     
 4. In the **Add a Poll** box, perform the following steps:
@@ -169,11 +177,15 @@ To add,
    
     The **Feed** page appears.
 
+    ![Feed page](<images/feed page.png>)
+
 2. On the **Feed** page, select one of the following options:
    
    * In the message box, select the **+** icon.
    * On the left pane, select **Create a Post.**
   
+    ![create a post](<images/create a post.png>)
+
 3. In the **Create Post** box, select **Add question.**
 4. In the **Add a Question** box, perform the following steps:
     
@@ -200,11 +212,15 @@ To add,
 
     The **Feed** page appears.
 
+    ![Feed page](<images/feed page.png>)
+
 2. On the **Feed** page, select one of the following options:
    
    * In the message box, select the **+** icon.
    * On the left pane, select **Create a Post.**
    
+   ![create a post](<images/create a post.png>)
+
 3. In the **Create Post** box, select **Add photos.**
    
 4. In the **Add Photos** box, perform one of the following actions:
@@ -234,10 +250,15 @@ To add,
    
     The **Feed** page appears.
 
+    ![Feed page](<images/feed page.png>)
+
 2. On the **Feed** page, select one of the following options:
    
    * In the message box, select the **+** icon.
    * On the left pane, select **Create a Post.**
+   
+   ![create a post](<images/create a post.png>)
+
   
 3. In the **Create Post** box, select **Add video.**
 4. In the **Add Video** box, perform one of the following actions:
@@ -267,11 +288,15 @@ To add,
 
     The **Feed** page appears.
 
+    ![Feed page](<images/feed page.png>)
+
 2. On the **Feed** page, select one of the following options:
    
    * In the message box, select the **+** icon.
    * On the left pane, select **Create a Post.**
    
+   ![create a post](<images/create a post.png>)
+
 3. In the **Create Post** box, select **Add documents.**
    
 4. In the **Add Documents** box, perform one of the following actions:
