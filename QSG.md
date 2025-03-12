@@ -107,9 +107,9 @@ To add,
    
 3. In the **Create Post** box, select **Add Quiz.** 
    
-   ![add quiz](<images/Add quiz.png>)
+  ![add quiz](<images/Add quiz 1.png>)
 
-4. In the **Add a Quiz** box, perform the following steps:
+1. In the **Add a Quiz** box, perform the following steps:
 
     a. Write your question.
 
@@ -121,7 +121,7 @@ To add,
 
     e. Select **Add.**
 
-5. In the **Create Post** box, perform the following steps:
+2. In the **Create Post** box, perform the following steps:
    
     a. (Optional) Add a tag.
 
@@ -152,7 +152,7 @@ To add,
 
 3. In the **Create Post** box, select **Add poll.**
    
-   ![add poll](<images/Add poll.png>)
+   ![add poll](<images/add poll 1.png>)
     
 4. In the **Add a Poll** box, perform the following steps:
    
@@ -194,7 +194,7 @@ To add,
 
 3. In the **Create Post** box, select **Add question.**
    
-   ![add question](<images/Add question.png>)
+   ![add question](<images/add question 1.png>)
 
 4. In the **Add a Question** box, perform the following steps:
     
@@ -232,7 +232,7 @@ To add,
 
 3. In the **Create Post** box, select **Add photos.**
    
-   ![Add photo](<images/Add photo.png>)
+   ![add photo](<images/add photos 1.png>)
    
 4. In the **Add Photos** box, perform one of the following actions:
    
@@ -273,7 +273,7 @@ To add,
   
 3. In the **Create Post** box, select **Add video.**
 
-![add video](<images/Add video.png>)
+![add video](<images/add videos 1.png>)
 
 4. In the **Add Video** box, perform one of the following actions:
    
@@ -313,7 +313,7 @@ To add,
 
 3. In the **Create Post** box, select **Add documents.**
 
-![add document](<images/Add documents.png>)
+![add document](<images/add doc 1.png>)
    
 4. In the **Add Documents** box, perform one of the following actions:
    
