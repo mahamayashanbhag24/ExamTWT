@@ -69,7 +69,6 @@ To create,
    
    * In the message box, select the **+** icon.
    * On the left pane, select **Create a Post.**
-    
     ![create a post](<images/create a post.png>)
 
 
@@ -81,7 +80,6 @@ To create,
     b. (Optional) Add a tag.
 
     c. Select **Post.**
-    
     ![text post](<images/text post -1.png>)
 
     The post appears on the **Feed** page.
@@ -102,12 +100,10 @@ To add,
    
    * In the message box, select the **+** icon.
    * On the left pane, select **Create a Post.**
-    
     ![create a post](<images/create a post.png>)
    
 3. In the **Create Post** box, select **Add Quiz.** 
-   
-  ![add quiz](<images/Add quiz 1.png>)
+   ![add quiz](<images/Add quiz 1.png>)
 
 4. In the **Add a Quiz** box, perform the following steps:
 
