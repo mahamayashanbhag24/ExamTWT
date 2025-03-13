@@ -70,7 +70,7 @@ To create,
    * In the message box, select the **+** icon.
    * On the left pane, select **Create a Post.**
     
-        ![create a post](<images/create a post.png>)
+    ![create a post](<images/create a post.png>)
 
 
 3. In the **Create Post** box, perform the following steps:
@@ -103,7 +103,7 @@ To add,
    * In the message box, select the **+** icon.
    * On the left pane, select **Create a Post.**
     
-        ![create a post](<images/create a post.png>)
+    ![create a post](<images/create a post.png>)
    
 3. In the **Create Post** box, select **Add Quiz.** 
    
