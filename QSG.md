@@ -304,8 +304,7 @@ To add,
     * Drag and drop the video and select **Add.**
   
     * Browse your files, select the video, and then select **Add.**
-  
-    
+    ![video](<images/add vid.png>)
 
 5. In the **Create Post** box, perform the following steps:
     
@@ -314,6 +313,8 @@ To add,
     b. (Optional) Add a tag.
     
     c. Select **Post.**
+
+    ![alt text](<images/add vid 2.png>)
 
     The video appears on the **Feed** page.
 
