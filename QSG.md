@@ -218,11 +218,15 @@ To add,
 
     b. Select **Add.**
 
+    ![Question](<images/question 1.png>)
+
 5. In the **Create Post** box, perform the following steps:
 
     a. (Optional) Add a tag.
 
     b. Select **Post.**
+
+    ![question post](<images/question post.png>)
 
     The question appears on the **Feed** page.
 
