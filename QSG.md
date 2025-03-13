@@ -260,7 +260,7 @@ To add,
 
     * Browse your files, select the photo, and then select **Add.**
   
-    ![photo main](<add photo main.png>)
+    ![add photo 1](<images/add photo main.png>)
 
 5. In the **Create Post** box, perform the following steps:
     
