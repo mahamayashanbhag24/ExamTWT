@@ -357,7 +357,7 @@ To add,
     
     c. Select **Post.**
 
-    ![add document 3](<images/add doc 3.png>)
+    ![add document 3](<images/add doc 31.png>)
 
     The document appears on the **Feed** page.
 
