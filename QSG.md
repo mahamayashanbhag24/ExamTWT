@@ -29,7 +29,7 @@ Version 1.0
 ## Introduction
 Creating a post on Tech Writer’s Tribe is a great way to share knowledge. Writers can share insights or technical expertise with a like-minded community. They can express their thoughts in an informative and engaging way. The content is accessible to the intended audience.
 
-This Quick Start Guide provides insights into different ways to create a post on Tech Writer’s Tribe application.
+This Quick Start Guide provides insights into different options to create a post on Tech Writer’s Tribe application.
 
 **Prerequisites**
 
@@ -48,7 +48,7 @@ You can create posts and share interactive content such as,
 * Video
 * Document
 
-![diagram](./images/diagram_1.png)
+![Diagram](images/Post.png)
 
 
 Your post is visible to other people, allowing them to interact through comments, likes, or responses.
@@ -109,19 +109,23 @@ To add,
    
   ![add quiz](<images/Add quiz 1.png>)
 
-1. In the **Add a Quiz** box, perform the following steps:
+4. In the **Add a Quiz** box, perform the following steps:
 
     a. Write your question.
 
     b. Add the options.
+    
+    **Note:** You can add upto four options.
 
-    c. Select the correct answer.
+    c. Select the correct answer from the added options.
 
     d. Set the expiry.
+    
+    **Note:** The quiz expires after the given time period.
 
     e. Select **Add.**
 
-2. In the **Create Post** box, perform the following steps:
+5. In the **Create Post** box, perform the following steps:
    
     a. (Optional) Add a tag.
 
@@ -160,7 +164,11 @@ To add,
 
     b. Add the options.
 
+    **Note:** You can add upto six options.
+
     c. Set the expiry.
+
+    **Note:** The poll expires after the given time period.
 
     d. Select **Add.**
 
