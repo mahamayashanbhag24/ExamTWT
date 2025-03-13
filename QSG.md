@@ -106,6 +106,7 @@ To add,
         ![create a post](<images/create a post.png>)
    
 3. In the **Create Post** box, select **Add Quiz.** 
+   
    ![add quiz](<images/Add quiz 1.png>)
 
 4. In the **Add a Quiz** box, perform the following steps:
