@@ -48,7 +48,7 @@ You can create posts and share interactive content such as,
 * Video
 * Document
 
-![Diagram](images/Post.png)
+![Diagram](<images/post -11.png>)
 
 
 Your post is visible to other people, allowing them to interact through comments, likes, or responses.
