@@ -304,6 +304,8 @@ To add,
     * Drag and drop the video and select **Add.**
   
     * Browse your files, select the video, and then select **Add.**
+  
+    
 
 5. In the **Create Post** box, perform the following steps:
     
@@ -345,6 +347,8 @@ To add,
   
     * Browse your files, select the document, and then select **Add.**
   
+    ![add document 2](<images/add doc 2.png>)
+  
 5. In the **Create Post** box, perform the following steps:
    
     a. (Optional) Compose the message.
@@ -352,6 +356,8 @@ To add,
     b. (Optional) Add a tag.
     
     c. Select **Post.**
+
+    ![add document 3](<images/add doc 3.png>)
 
     The document appears on the **Feed** page.
 
