@@ -259,6 +259,8 @@ To add,
     * Drag and drop the photo and select **Add.**
 
     * Browse your files, select the photo, and then select **Add.**
+  
+    ![photo main](<add photo main.png>)
 
 5. In the **Create Post** box, perform the following steps:
     
@@ -267,6 +269,8 @@ To add,
     b. (Optional) Add a tag.
     
     c. Select **Post.**
+
+    ![photo 2](<images/add photos 2.png>)
 
     The photo appears on the **Feed** page.
 
