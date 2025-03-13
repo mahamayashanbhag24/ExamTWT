@@ -125,11 +125,15 @@ To add,
 
     e. Select **Add.**
 
+    ![quiz 1](images/quiz.png)
+
 5. In the **Create Post** box, perform the following steps:
    
     a. (Optional) Add a tag.
 
     b. Select **Post.**
+
+    ![quiz 2](<images/quiz 2.png>)
 
     The quiz appears on the **Feed** page.
 
@@ -172,11 +176,15 @@ To add,
 
     d. Select **Add.**
 
+    ![Poll](<images/poll 1.png>)
+
 5. In the **Create Post** box, perform the following steps:
 
     a. (Optional) Add a tag.
         
     b. Select **Post.**
+
+   ![Poll 2](<images/poll 2.png>)
 
     The poll appears on the **Feed** page.
 
