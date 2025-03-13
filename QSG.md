@@ -297,7 +297,7 @@ To add,
   
 3. In the **Create Post** box, select **Add video.**
 
-![add video](<images/add videos 1.png>)
+    ![add video](<images/add videos 1.png>)
 
 4. In the **Add Video** box, perform one of the following actions:
    
@@ -339,17 +339,16 @@ To add,
 
 3. In the **Create Post** box, select **Add documents.**
 
-![add document](<images/add doc 1.png>)
+    ![add document](<images/add doc 1.png>)
    
 4. In the **Add Documents** box, perform one of the following actions:
    
     * Drag and drop the document and select **Add.**
   
     * Browse your files, select the document, and then select **Add.**
-  
     ![add document 2](<images/add doc 2.png>)
   
-5. In the **Create Post** box, perform the following steps:
+1. In the **Create Post** box, perform the following steps:
    
     a. (Optional) Compose the message.
     
