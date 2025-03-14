@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>QSG.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<p><img src="./images/image.png" alt="image"></p>
+<p>Tech Writer’s Tribe</p>
+<!-- omit in toc -->
+<h1 id="creating-a-post">Creating A Post</h1>
+<p>Quick Start Guide</p>
+<p>Version 1.0</p>
+<p> </p>
+<!-- omit in toc -->
+<h2 id="table-of-contents">Table of Contents</h2>
+<ul>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#creating-a-post-1">Creating a post</a>
+<ul>
+<li><a href="#create-a-text-post">Create a text post</a></li>
+<li><a href="#add-a-quiz">Add a quiz</a></li>
+<li><a href="#add-a-poll">Add a poll</a></li>
+<li><a href="#add-a-question">Add a question</a></li>
+<li><a href="#add-a-photo">Add a photo</a></li>
+<li><a href="#add-a-video">Add a video</a></li>
+<li><a href="#add-a-document">Add a document</a></li>
+</ul>
+</li>
+</ul>
+<p> </p>
+<h2 id="introduction">Introduction</h2>
+<p>Creating a post on Tech Writer’s Tribe is a great way to share knowledge. Writers can share insights or technical expertise with a like-minded community. They can express their thoughts in an informative and engaging way. The content is accessible to the intended audience.</p>
+<p>This Quick Start Guide provides insights into different options to create a post on Tech Writer’s Tribe application.</p>
+<p><strong>Prerequisites</strong></p>
+<ul>
+<li>An active account on Tech Writer’s Tribe application.</li>
+<li>Stable internet connection.</li>
+</ul>
+<p> </p>
+<h2 id="creating-a-post">Creating a post</h2>
+<p>You can create posts and share interactive content such as,</p>
+<ul>
+<li>Text</li>
+<li>Quiz</li>
+<li>Poll</li>
+<li>Question</li>
+<li>Photo</li>
+<li>Video</li>
+<li>Document</li>
+</ul>
+<p><img src="images/post -11.png" alt="Diagram"></p>
+<p>Your post is visible to other people, allowing them to interact through comments, likes, or responses.</p>
+<p> </p>
+<h3 id="create-a-text-post">Create a text post</h3>
+<p>You can create a text post to share information, engage with the community, and gather feedback.</p>
+<p>To create,</p>
+<ol>
+<li>
+<p>On your browser or mobile, sign in to the Tech Writer’s Tribe application.</p>
+<p>The <strong>Feed</strong> page appears.</p>
+<p><img src="images/feed page.png" alt="Feed page"></p>
+</li>
+<li>
+<p>On the Feed page, select one of the following options:</p>
+<ul>
+<li>In the message box, select the <strong>+</strong> icon.</li>
+<li>On the left pane, select <strong>Create a Post.</strong></li>
+</ul>
+<p><img src="images/create a post.png" alt="create a post"></p>
+</li>
+<li>
+<p>In the <strong>Create Post</strong> box, perform the following steps:</p>
+<p>a. Compose the message.</p>
+<p>b. (Optional) Add a tag.</p>
+<p>c. Select <strong>Post.</strong></p>
+<p><img src="images/text post -1.png" alt="text post"></p>
+<p>The post appears on the <strong>Feed</strong> page.</p>
+</li>
+</ol>
+<p> </p>
+<h3 id="add-a-quiz">Add a quiz</h3>
+<p>You can add a quiz to engage people and test their knowledge.</p>
+<p>To add,</p>
+<ol>
+<li>
+<p>On your browser or mobile, sign in to the Tech Writer’s Tribe application.</p>
+<p>The <strong>Feed</strong> page appears.</p>
+<p><img src="images/feed page.png" alt="Feed page"></p>
+</li>
+<li>
+<p>On the Feed page, select one of the following options:</p>
+<ul>
+<li>In the message box, select the <strong>+</strong> icon.</li>
+<li>On the left pane, select <strong>Create a Post.</strong></li>
+</ul>
+<p><img src="images/create a post.png" alt="create a post"></p>
+</li>
+<li>
+<p>In the <strong>Create Post</strong> box, select <strong>Add Quiz.</strong></p>
+<p><img src="images/Add quiz 1.png" alt="add quiz"></p>
+</li>
+<li>
+<p>In the <strong>Add a Quiz</strong> box, perform the following steps:</p>
+<p>a. Write your question.</p>
+<p>b. Add the options.</p>
+<p><strong>Note:</strong> You can add upto four options.</p>
+<p>c. Select the correct answer from the added options.</p>
+<p>d. Set the expiry.</p>
+<p><strong>Note:</strong> The quiz expires after the given time period.</p>
+<p>e. Select <strong>Add.</strong></p>
+<p><img src="images/quiz.png" alt="quiz 1"></p>
+</li>
+<li>
+<p>In the <strong>Create Post</strong> box, perform the following steps:</p>
+<p>a. (Optional) Add a tag.</p>
+<p>b. Select <strong>Post.</strong></p>
+<p><img src="images/quiz 2.png" alt="quiz 2"></p>
+<p>The quiz appears on the <strong>Feed</strong> page.</p>
+</li>
+</ol>
+<p> </p>
+<h3 id="add-a-poll">Add a poll</h3>
+<p>You can add a poll to gather opinions and feedback from the community.</p>
+<p>To add,</p>
+<ol>
+<li>
+<p>On your browser or mobile, sign in to the Tech Writer’s Tribe application.</p>
+<p>The <strong>Feed</strong> page appears.</p>
+<p><img src="images/feed page.png" alt="Feed page"></p>
+</li>
+<li>
+<p>On the <strong>Feed</strong> page, select one of the following options:</p>
+<ul>
+<li>In the message box, select the <strong>+</strong> icon.</li>
+<li>On the left pane, select <strong>Create a Post.</strong></li>
+</ul>
+<p><img src="images/create a post.png" alt="create a post"></p>
+</li>
+<li>
+<p>In the <strong>Create Post</strong> box, select <strong>Add poll.</strong></p>
+<p><img src="images/add poll 1.png" alt="add poll"></p>
+</li>
+<li>
+<p>In the <strong>Add a Poll</strong> box, perform the following steps:</p>
+<p>a. Write your question.</p>
+<p>b. Add the options.</p>
+<p><strong>Note:</strong> You can add upto six options.</p>
+<p>c. Set the expiry.</p>
+<p><strong>Note:</strong> The poll expires after the given time period.</p>
+<p>d. Select <strong>Add.</strong></p>
+<p><img src="images/poll 1.png" alt="Poll"></p>
+</li>
+<li>
+<p>In the <strong>Create Post</strong> box, perform the following steps:</p>
+<p>a. (Optional) Add a tag.</p>
+<p>b. Select <strong>Post.</strong></p>
+<p><img src="images/poll 2.png" alt="Poll 2"></p>
+<p>The poll appears on the <strong>Feed</strong> page.</p>
+</li>
+</ol>
+<p> </p>
+<h3 id="add-a-question">Add a question</h3>
+<p>You can add a question to seek answers, spark discussions, or gather opinions from the community.</p>
+<p>To add,</p>
+<ol>
+<li>
+<p>On your browser or mobile, sign in to the Tech Writer’s Tribe application.</p>
+<p>The <strong>Feed</strong> page appears.</p>
+<p><img src="images/feed page.png" alt="Feed page"></p>
+</li>
+<li>
+<p>On the <strong>Feed</strong> page, select one of the following options:</p>
+<ul>
+<li>In the message box, select the <strong>+</strong> icon.</li>
+<li>On the left pane, select <strong>Create a Post.</strong></li>
+</ul>
+<p><img src="images/create a post.png" alt="create a post"></p>
+</li>
+<li>
+<p>In the <strong>Create Post</strong> box, select <strong>Add question.</strong></p>
+<p><img src="images/add question 1.png" alt="add question"></p>
+</li>
+<li>
+<p>In the <strong>Add a Question</strong> box, perform the following steps:</p>
+<p>a. Write your question.</p>
+<p>b. Select <strong>Add.</strong></p>
+<p><img src="images/question 1.png" alt="Question"></p>
+</li>
+<li>
+<p>In the <strong>Create Post</strong> box, perform the following steps:</p>
+<p>a. (Optional) Add a tag.</p>
+<p>b. Select <strong>Post.</strong></p>
+<p><img src="images/question post.png" alt="question post"></p>
+<p>The question appears on the <strong>Feed</strong> page.</p>
+</li>
+</ol>
+<p> </p>
+<h3 id="add-a-photo">Add a photo</h3>
+<p>You can upload and share photos to enhance your posts. You can add images to provide visual context, illustrate ideas, or make your content more engaging for the community.</p>
+<p>To add,</p>
+<ol>
+<li>
+<p>On your browser or mobile, sign in to the Tech Writer’s Tribe application.</p>
+<p>The <strong>Feed</strong> page appears.</p>
+<p><img src="images/feed page.png" alt="Feed page"></p>
+</li>
+<li>
+<p>On the <strong>Feed</strong> page, select one of the following options:</p>
+<ul>
+<li>In the message box, select the <strong>+</strong> icon.</li>
+<li>On the left pane, select <strong>Create a Post.</strong></li>
+</ul>
+<p><img src="images/create a post.png" alt="create a post"></p>
+</li>
+<li>
+<p>In the <strong>Create Post</strong> box, select <strong>Add photos.</strong></p>
+<p><img src="images/add photos 1.png" alt="add photo"></p>
+</li>
+<li>
+<p>In the <strong>Add Photos</strong> box, perform one of the following actions:</p>
+<ul>
+<li>
+<p>Drag and drop the photo and select <strong>Add.</strong></p>
+</li>
+<li>
+<p>Browse your files, select the photo, and then select <strong>Add.</strong></p>
+</li>
+</ul>
+<p><img src="images/add photo main.png" alt="add photo 1"></p>
+</li>
+<li>
+<p>In the <strong>Create Post</strong> box, perform the following steps:</p>
+<p>a. (Optional) Compose the message.</p>
+<p>b. (Optional) Add a tag.</p>
+<p>c. Select <strong>Post.</strong></p>
+<p><img src="images/add photos 2.png" alt="photo 2"></p>
+<p>The photo appears on the <strong>Feed</strong> page.</p>
+</li>
+</ol>
+<p> </p>
+<h3 id="add-a-video">Add a video</h3>
+<p>You can add a video to provide a tutorial, demonstration, or visual explanation, enhancing the overall experience.</p>
+<p>To add,</p>
+<ol>
+<li>
+<p>On your browser or mobile, sign in to the Tech Writer’s Tribe application.</p>
+<p>The <strong>Feed</strong> page appears.</p>
+<p><img src="images/feed page.png" alt="Feed page"></p>
+</li>
+<li>
+<p>On the <strong>Feed</strong> page, select one of the following options:</p>
+<ul>
+<li>In the message box, select the <strong>+</strong> icon.</li>
+<li>On the left pane, select <strong>Create a Post.</strong></li>
+</ul>
+<p><img src="images/create a post.png" alt="create a post"></p>
+</li>
+<li>
+<p>In the <strong>Create Post</strong> box, select <strong>Add video.</strong></p>
+<p><img src="images/add videos 1.png" alt="add video"></p>
+</li>
+<li>
+<p>In the <strong>Add Video</strong> box, perform one of the following actions:</p>
+<ul>
+<li>
+<p>Drag and drop the video and select <strong>Add.</strong></p>
+</li>
+<li>
+<p>Browse your files, select the video, and then select <strong>Add.</strong></p>
+</li>
+</ul>
+<p><img src="images/add vid.png" alt="video"></p>
+</li>
+<li>
+<p>In the <strong>Create Post</strong> box, perform the following steps:</p>
+<p>a. (Optional) Compose the message.</p>
+<p>b. (Optional) Add a tag.</p>
+<p>c. Select <strong>Post.</strong></p>
+<p><img src="images/video part.png" alt="vid 2"></p>
+<p>The video appears on the <strong>Feed</strong> page.</p>
+</li>
+</ol>
+<p> </p>
+<h3 id="add-a-document">Add a document</h3>
+<p>You can upload and share documents to provide detailed information, guides, or resources. Adding a document helps people access important files through your post.</p>
+<p>To add,</p>
+<ol>
+<li>
+<p>On your browser or mobile, sign in to the Tech Writer’s Tribe application.</p>
+<p>The <strong>Feed</strong> page appears.</p>
+<p><img src="images/feed page.png" alt="Feed page"></p>
+</li>
+<li>
+<p>On the <strong>Feed</strong> page, select one of the following options:</p>
+<ul>
+<li>In the message box, select the <strong>+</strong> icon.</li>
+<li>On the left pane, select <strong>Create a Post.</strong></li>
+</ul>
+<p><img src="images/create a post.png" alt="create a post"></p>
+</li>
+<li>
+<p>In the <strong>Create Post</strong> box, select <strong>Add documents.</strong></p>
+<p><img src="images/add doc 1.png" alt="add document"></p>
+</li>
+<li>
+<p>In the <strong>Add Documents</strong> box, perform one of the following actions:</p>
+<ul>
+<li>
+<p>Drag and drop the document and select <strong>Add.</strong></p>
+</li>
+<li>
+<p>Browse your files, select the document, and then select <strong>Add.</strong></p>
+</li>
+</ul>
+<p><img src="images/add doc 2.png" alt="add document 2"></p>
+</li>
+<li>
+<p>In the <strong>Create Post</strong> box, perform the following steps:</p>
+<p>a. (Optional) Compose the message.</p>
+<p>b. (Optional) Add a tag.</p>
+<p>c. Select <strong>Post.</strong></p>
+<p><img src="images/template.png" alt="Template"></p>
+<p>The document appears on the <strong>Feed</strong> page.</p>
+</li>
+</ol>
+
+</body>
+</html>
