@@ -348,7 +348,8 @@ To add,
     * Drag and drop the document and select **Add.**
   
     * Browse your files, select the document, and then select **Add.**
-    ![add document 2](<images/add doc 2.png>)
+    
+![add document 2](<images/add doc 2.png>)
   
 1. In the **Create Post** box, perform the following steps:
    
@@ -358,7 +359,7 @@ To add,
     
     c. Select **Post.**
 
-    ![add document 3](<images/add doc 31.png>)
+    ![alt text](images/template.png)
 
     The document appears on the **Feed** page.
 
