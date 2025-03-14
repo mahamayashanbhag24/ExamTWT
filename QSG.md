@@ -315,7 +315,7 @@ To add,
     
     c. Select **Post.**
 
-    ![alt text](<images/add vid 2.png>)
+    ![vid 2](<images/video part.png>)
 
     The video appears on the **Feed** page.
 
