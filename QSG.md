@@ -115,7 +115,7 @@ To add,
 
     b. Add the options.
     
-    **Note:** You can add upto four options.
+    **Note:** You can add up to four options.
 
     c. Select the correct answer from the added options.
 
@@ -168,7 +168,7 @@ To add,
 
     b. Add the options.
 
-    **Note:** You can add upto six options.
+    **Note:** You can add up to six options.
 
     c. Set the expiry.
 
